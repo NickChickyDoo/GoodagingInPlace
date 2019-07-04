@@ -3,7 +3,7 @@ return[
     'home_head'=>'Home - สูงวัย สุขใจ ในบ้าน',
     'home_manu'=>'หน้าหลัก',
     'news_manu'=>'ข่าวสาว & สาระความรู้',
-    'assessment_manu'=>'สำหรับบุคลทั่วไป',
+    'assessment_manu'=>'สำหรับบุคคลทั่วไป',
     'about_manu'=>'เกี่ยวกับเรา',
     'contact_manu'=>'ติดต่อเรา',
     'search_tag'=>'ค้นหา',
