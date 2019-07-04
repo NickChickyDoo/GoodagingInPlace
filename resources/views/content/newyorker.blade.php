@@ -4,7 +4,7 @@
             <link rel="stylesheet" href="{{ asset('css/style.css') }}" >
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+            <link rel="icon" type="image/png" href="{{ asset('img/logo_V.1.0.png')}}"/>
             <!-- Bootstrap CSS -->
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -16,6 +16,8 @@
 
         <div class="container">
                 <p align="center"><h3>@lang('newyorker.title')</h3></p>
+
+                <img alt="" src = "https://static01.nyt.com/images/2019/01/13/nyregion/13COMMENTS/06OLDEST02-superJumbo.jpg?quality=90&auto=webp" width="100%">
 
                 <h4>In 2015, we began following six people over age 85. Last year the four remaining showed that old age is not what you think.</h4>
 

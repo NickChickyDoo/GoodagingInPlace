@@ -36,8 +36,51 @@
                 </div>
 
         </div>
+{{-- ส่วน ดาวน์โหลด --}}
+<div class="col-md-4 col-md-pull-8">
+        <div class="d-block row">
+                <div class="title-area center">
+                    <h3>@lang('home.side_title')</h3>
+                </div>
+            </div>
+        <div class="row">
 
-        <div class="col-md-4 col-md-pull-8">
+                <div class="col-md-10 col-md-offset-1">
+
+
+                    <a class="" href="/insights">
+                        <div class="thumbnail">
+                            <div class="row text-center d-block">
+                                <img src="http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/icon/news.png"
+                                     alt="..." class="image-icon-lg">
+                                <h3 class="link-name">@lang('nav.news')</h3>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <a class="" href="/home-self-assessment">
+                        <div class="thumbnail">
+                            <div class="row text-center d-block">
+                                <img src="http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/icon/asset.png"
+                                     alt="..." class="image-icon-lg">
+                                <h3 class="link-name">@lang('home.assessment_manu')</h3>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+    </div>
+
+
+{{--
+             <div class="col-md-4 col-md-pull-8">
                 <div class="thumbnail">
                     <div class="row">
 
@@ -54,7 +97,7 @@
                     </div>
                 </div>
             </div>
-{{--  --}}
+--}}
 
 
         <div class="row">

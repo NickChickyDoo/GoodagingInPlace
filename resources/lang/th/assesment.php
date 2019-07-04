@@ -2,6 +2,7 @@
 return[
     'home-self-assessment.head'=>'Home Self Assessment - สูงวัย สุขใจ ในบ้าน',
     'home-self-assessment.title'=>'ประเมินด้วยตนเอง ทำอย่างไร?',
+    
     'home-self-assessment.side_title'=>'คำแนะนำ',
     'home-self-assessment.desc'=>'แบบประเมินง่ายๆ ที่ใครๆ ก็สามารถใช้ทดสอบว่าบ้านของคุณหรือคนในครอบครัวคุณ เหมาะกับผู้สูงวัยหรือไม่ แบบประเมินนี้ช่วยให้คุณเห็นข้อน่าปรับปรุง ซึ่งขอแนะนำให้คุณปรึกษาผู้เชี่ยวชาญตามที่แนะนำต่อไป',
     'home-self-assessment.2nd_topic'=>'Aging in Place: Housing Options',

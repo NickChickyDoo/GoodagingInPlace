@@ -51,26 +51,6 @@
     text-align: center;
     }
 
-    /* Number text (1/3 etc) */
-    .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-    }
-
-    /* The dots/bullets/indicators */
-    .dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-    }
-
     .active {
     background-color: #717171;
     }
@@ -101,49 +81,38 @@
 </style>
 
 <!-- Slide Show -->
+
 <div class="container-fluid">
-    <div class="banner-home"></div>
     <div class="slideshow-container">
         <div class="mySlides fade">
-            <div class="numbertext">1 / 5</div>
-                <img src="http://www.goodaginginplace.com/storage/app/media/Home/1.png" style="width: 1000px;height: 300px">
+            <img src="http://www.goodaginginplace.com/storage/app/media/Home/1.png" style="width: 1000px;height: 300px">
             <div class="text"><h1>"Good Aging in Place"</h1></div>
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">2 / 5</div>
-                <img src="http://www.goodaginginplace.com/storage/app/media/Home/2.jpg" style="width: 1000px;height: 300px">
+            <img src="http://www.goodaginginplace.com/storage/app/media/Home/2.jpg" style="width: 1000px;height: 300px">
             <div class="text"><h1>"สูงวัย สุขใจ ในบ้าน"</h1></div>
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">3 / 5</div>
-                <img src="http://www.goodaginginplace.com/storage/app/media/Home/3.jpg" style="width: 1000px;height: 300px">
+            <img src="http://www.goodaginginplace.com/storage/app/media/Home/3.jpg" style="width: 1000px;height: 300px">
             <div class="text"><h1>"Good Aging in Place"</h1></div>
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">4 / 5</div>
-                <img src="http://www.goodaginginplace.com/storage/app/media/Home/4.jpg" style="width: 1000px;height: 300px">
+            <img src="http://www.goodaginginplace.com/storage/app/media/Home/4.jpg" style="width: 1000px;height: 300px">
             <div class="text"><h1>"สูงวัย สุขใจ ในบ้าน"</h1></div>
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">5 / 5</div>
-                <img src="http://www.goodaginginplace.com/storage/app/media/Home/5.jpg" style="width: 1000px;height: 300px">
+            <img src="http://www.goodaginginplace.com/storage/app/media/Home/5.jpg" style="width: 1000px;height: 300px">
             <div class="text"><h1>"Good Aging in Place"</h1></div>
         </div>
-
     </div>
+</div>
     <br>
 
-    <div style="text-align:center">
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-    </div>
+
 </div>
     <script>
         var slideIndex = 0;
@@ -152,17 +121,13 @@
         function showSlides() {
         var i;
         var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
         }
         slideIndex++;
         if (slideIndex > slides.length) {slideIndex = 1}
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
+
         slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
         setTimeout(showSlides, 3500); // Change image every 3.5 seconds
         }
     </script>

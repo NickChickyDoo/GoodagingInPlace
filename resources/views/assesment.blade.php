@@ -4,21 +4,21 @@
         <link rel="stylesheet" href="{{ asset('css/style.css') }}" >
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+        <link rel="icon" type="image/png" href="{{ asset('img/logo_V.1.0.png')}}"/>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-        <title>@lang('home-self-assessment.head')</title>
+        <title>@lang('assesment.home-self-assessment.head')</title>
 
     </head>
 
     <body>
         @include('partial.header')
 
-        <section class="jumbotron text-center bg-banner bg-banner-2">
+        <section class="jumbotron text-center bg-banner bg-banner-3">
 
                 <div class="container">
-                    <h1 class="jumbotron-heading color-white">@lang('home.news_manu')</h1>
+                    <h1 class="jumbotron-heading color-white">@lang('home.assessment_manu')</h1>
                 </div>
          </section>
 

@@ -1,5 +1,6 @@
 <!-- NavBar Line 1 -->
 <div class="container">
+<div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="/"><img src="{{ asset('img\logo_V.1.0.png') }}" alt="..." width="65"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,4 +73,5 @@
             </div>
         </div>
     </nav>
+</div>
 </div>

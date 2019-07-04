@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
 
 <div class="w3-content w3-section" style="max-width:500px">
   <p>The w3-animate-fading class animates an element in and out (takes about 10 seconds).</p>
-
-  <img class="mySlides w3-animate-fading" src="http://www.goodaginginplace.com/storage/app/media/Home/1.jpg" style="width: 1000px;height: 300px">
-  <img class="mySlides w3-animate-fading" src="http://www.goodaginginplace.com/storage/app/media/Home/2.jpg" style="width: 1000px;height: 300px">
-  <img class="mySlides w3-animate-fading" src="http://www.goodaginginplace.com/storage/app/media/Home/3.jpg" style="width: 1000px;height: 300px">
-  <img class="mySlides w3-animate-fading" src="http://www.goodaginginplace.com/storage/app/media/Home/4.jpg" style="width: 1000px;height: 300px">
-  <img class="mySlides w3-animate-fading" src="http://www.goodaginginplace.com/storage/app/media/Home/5.jpg" style="width: 1000px;height: 300px">
+    <center>
+        <img class="mySlides w3-animate-fading" src="http://www.goodaginginplace.com/storage/app/media/Home/1.png" style="width: 1000px;height: 300px">
+        <img class="mySlides w3-animate-fading" src="http://www.goodaginginplace.com/storage/app/media/Home/2.jpg" style="width: 1000px;height: 300px">
+        <img class="mySlides w3-animate-fading" src="http://www.goodaginginplace.com/storage/app/media/Home/3.jpg" style="width: 1000px;height: 300px">
+        <img class="mySlides w3-animate-fading" src="http://www.goodaginginplace.com/storage/app/media/Home/4.jpg" style="width: 1000px;height: 300px">
+        <img class="mySlides w3-animate-fading" src="http://www.goodaginginplace.com/storage/app/media/Home/5.jpg" style="width: 1000px;height: 300px">
+    </center>
 </div>
 
 <script>

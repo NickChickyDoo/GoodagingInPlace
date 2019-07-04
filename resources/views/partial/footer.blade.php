@@ -76,13 +76,13 @@
                     </font>
                     <a href="https://www.facebook.com/goodaginginplace/" class="custom-facebook"></a>
 
-
+{{--
                     <a onclick="topFunction()" id="btnGoTop" title="Go to top" class="">
                         <span class="glyphicon glyphicon-menu-up" style="font-size:48px;cursor: pointer"></span>
                     </a>
 
                 </div>
-            </div>
+            </div> --}}
 
 
         </div>

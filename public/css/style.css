@@ -35,6 +35,13 @@ nav#layout-nav .navbar-nav > li > a {
 }
 
 h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
     color: #e06556;
 }
 
@@ -110,7 +117,7 @@ h3 {
 
 .title-area h3.removeTop {
     text-transform: none !important;
-    margin-top: 2px !important;
+    margin-top: 10px !important;
 }
 
 .home-greetings {
@@ -158,6 +165,10 @@ h3 {
 
 .bg-orange {
     background-color: #f15b4e;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .text-orange {
@@ -218,6 +229,7 @@ nav#layout-nav {
 .caption-full h3 {
     font-family: 'Prompt', sans-serif;
     padding-left: 10px;
+    margin-top: 10px !important;
 }
 
 .caption-full p {
@@ -288,6 +300,10 @@ nav#layout-nav {
     -webkit-line-clamp: 50;
 }
 
+.pull-right {
+    float: right;
+}
+
 p.link a {
     color: #E06556;
     text-align: right;
@@ -307,6 +323,10 @@ h3.link-name {
 
     padding: 10px 0px 10px 10px;
 
+}
+
+.img-circle {
+    border-radius: 50%;
 }
 
 .image-square-right {
@@ -475,7 +495,7 @@ h3.link-name {
     width: 100%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-image: url('../images/bg-banner.png');
+    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/bg-banner.png');
 
 }
 
@@ -486,13 +506,21 @@ h3.link-name {
     width: 100%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-image: url('../images/bg-banner.png');
+    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/bg-banner.png');
+
+}
+
+.bg-banner-1 {
+    background-size: 100% auto;
+    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/banner/1.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 
 }
 
 .bg-banner-2 {
     background-size: 100% auto;
-    background-image: url('../images/banner/2.png');
+    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/banner/2.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
 
@@ -500,7 +528,7 @@ h3.link-name {
 
 .bg-banner-3 {
     background-size: 100% auto;
-    background-image: url('../images/banner/3.png');
+    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/banner/3.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
 
@@ -508,14 +536,14 @@ h3.link-name {
 
 .bg-banner-4 {
     background-size: 100% auto;
-    background-image: url('../images/banner/4.png');
+    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/banner/4.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 
 .bg-banner-5 {
     background-size: 100% auto;
-    background-image: url('../images/banner/5.png');
+    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/banner/5.png');
     background-repeat: no-repeat;
     background-position: 4% 30%;
 
@@ -523,7 +551,7 @@ h3.link-name {
 
 .bg-banner-6 {
     background-size: 100% auto;
-    background-image: url('../images/banner/6.png');
+    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/banner/6.png');
     background-repeat: no-repeat;
     background-position: 50% 30%;
 
@@ -531,7 +559,7 @@ h3.link-name {
 
 .bg-banner-7 {
     background-size: 100% auto;
-    background-image: url('../images/banner/7.png');
+    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/banner/7.png');
     background-repeat: no-repeat;
     background-position: 50% 30%;
 
@@ -540,7 +568,7 @@ h3.link-name {
 .supporter {
     width: 100%;
     height: 97px;
-    background-image: url('../images/supporter.png');
+    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/supporter.png');
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -549,7 +577,7 @@ h3.link-name {
 .map {
     width: 100%;
     height: 300px;
-    background-image: url('../images/supporter.png');
+    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/supporter.png');
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -577,7 +605,7 @@ h3.link-name {
 }
 
 .custom-facebook {
-    background-image: url('../images/fb.png');
+    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/fb.png');
     background-size: auto 57%;
     background-repeat: no-repeat;
     background-position: center;
@@ -587,7 +615,7 @@ h3.link-name {
 }
 
 .custom-btn-facebook {
-    background-image: url('../images/fb2.png');
+    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/fb2.png');
     background-size: auto 80%;
     background-repeat: no-repeat;
     background-position: center;
@@ -748,6 +776,9 @@ a.text-white p {
         margin: auto;
 
     }
+    .d-block{
+        display: block !important;
+    }
     .post-list img
     {
         width: 100%;
@@ -771,6 +802,27 @@ a.text-white p {
 
 }
 
+@media (min-width: 992px){
+    .col-md-offset-1 {
+        margin-left: 8.33333333%;
+    }
+
+    .col-md-offset-2 {
+        margin-left: 16.66666667%;
+    }
+
+    .col-md-4 {
+        width: 33.33333333%;
+    }
+
+    .col-md-push-8 {
+        left: 66.66666667%;
+    }
+
+    .col-md-10 {
+        width: 83.33333333%;
+    }
+}
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
 

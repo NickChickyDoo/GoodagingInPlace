@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="{{ asset('css/style.css') }}" >
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+        <link rel="icon" type="image/png" href="{{ asset('img/logo_V.1.0.png')}}"/>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -15,7 +15,7 @@
     <body>
         @include('partial.header')
 
-        <section class="jumbotron text-center bg-banner bg-banner-2">
+        <section class="jumbotron text-center bg-banner bg-banner-7">
 
                 <div class="container">
                     <h1 class="jumbotron-heading color-white">@lang('contact.footer.head.1')</h1>
@@ -26,7 +26,7 @@
             <div class="container">
 
                     <div class="row">
-                            <div class="col-md-4 col-md-push-8">
+                            <div class="col-md-4 ">
 
                                 <div class="row">
                                     <div class="col-md-12">
@@ -44,7 +44,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-md-8 col-md-pull-4">
+                            <div class="col-md-8 ">
 
                                 <div class="row">
                                     <div class="col-md-12">

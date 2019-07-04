@@ -7,10 +7,18 @@
     </head>
 
     <body>
-
         @include('partial.header')
 
-        @include('partial.slide')
+        {{-- @include('partial.slide') --}}
+
+        <section class="jumbotron text-center bg-banner bg-banner-1">
+
+                <div class="container">
+                    <h1 class="jumbotron-heading color-white">@lang('home.banner')</h1>
+                </div>
+         </section>
+
+        <div class="banner"></div>
 
         @include('partial.contentHome')
 
