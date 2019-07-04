@@ -7,4 +7,8 @@ return[
     'footer.p.3'=>'096-9800126',
     'footer.p.4'=>'info@goodaginginplace.com',
     'footer.p.5'=>"Don't miss any important news. Follow us here.",
+
+    'title'=>'Contact Us - Good Aging in Place',
+    'desc'=>'If you want to inquire. About activities Want to contact an expert? Can contact'
+
 ];

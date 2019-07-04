@@ -47,14 +47,14 @@
                                 </td>
 
                                 <td>
-                                    <a class="text-white" href="#"><p>@lang('home.about_manu')</p></a>
+                                    <a class="text-white" href="/about"><p>@lang('home.about_manu')</p></a>
                                 </td>
                             </tr>
 
 
                             <tr>
                                 <td>
-                                     <a class="text-white" href="#"><p>@lang('home.contact_manu')</p></a>
+                                     <a class="text-white" href="/contact"><p>@lang('home.contact_manu')</p></a>
                                 </td>
                             </tr>
 

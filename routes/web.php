@@ -15,16 +15,24 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/guidelines-creating-home-elderly', function () {
-    return view('content/guidelines-creating-home-elderly');
-});
-
 Route::get('/insights', function () {
     return view('insights');
 });
 
 Route::get('/home-self-assessment', function () {
     return view('assesment');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/guidelines-creating-home-elderly', function () {
+    return view('content/guidelines-creating-home-elderly');
 });
 
 Route::get('/ai-pet', function () {

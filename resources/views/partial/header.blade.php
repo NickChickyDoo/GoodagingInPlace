@@ -58,13 +58,13 @@
 
                         <div class="col-md-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#"><b>@lang('home.about_manu')</b></a>
+                                <a class="nav-link" href="/about"><b>@lang('home.about_manu')</b></a>
                             </li>
                         </div>
 
                         <div class="col-md-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#"><b>@lang('home.contact_manu')</b></a>
+                                <a class="nav-link" href="/contact"><b>@lang('home.contact_manu')</b></a>
                             </li>
                         </div>
                     </ul>
