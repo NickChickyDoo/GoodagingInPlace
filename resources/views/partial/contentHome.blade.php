@@ -51,7 +51,7 @@
                     <a class="" href="/insights">
                         <div class="thumbnail">
                             <div class="row text-center d-block">
-                                <img src="http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/icon/news.png"
+                                <img src="{{ asset('img/icon/news.png') }}"
                                      alt="..." class="image-icon-lg">
                                 <h3 class="link-name">@lang('nav.news')</h3>
                             </div>
@@ -66,7 +66,7 @@
                     <a class="" href="/home-self-assessment">
                         <div class="thumbnail">
                             <div class="row text-center d-block">
-                                <img src="http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/icon/asset.png"
+                                <img src="{{ asset('img/icon/asset.png') }}"
                                      alt="..." class="image-icon-lg">
                                 <h3 class="link-name">@lang('home.assessment_manu')</h3>
                             </div>
