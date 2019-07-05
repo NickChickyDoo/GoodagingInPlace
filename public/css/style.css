@@ -1,4 +1,5 @@
 /*------------------------------------------ Setting ------------------------------------------*/
+
 body {
     font-family: 'Prompt', sans-serif;
     font-size: 1.4em;
@@ -20,7 +21,7 @@ nav#layout-nav {
     background: rgba(255, 255, 255, 0.8);
 }
 
-nav#layout-nav .navbar-nav > li > a {
+nav#layout-nav .navbar-nav>li>a {
     font-weight: 500;
     color: #292929;
 }
@@ -45,8 +46,12 @@ h3 {
     color: #e06556;
 }
 
+
 /*------------------------------------------ Setting ------------------------------------------*/
+
+
 /* Style all font awesome icons */
+
 .fa {
     padding: 15px;
     font-size: 25px;
@@ -56,15 +61,20 @@ h3 {
     border-radius: 50%;
 }
 
+
 /* Add a hover effect if you want */
+
 .fa:hover {
     opacity: 0.8;
     color: #000;
 }
 
+
 /* Set a specific color for each brand */
 
+
 /* Facebook */
+
 .fa-facebook {
     background: #3B5998;
     color: white;
@@ -79,7 +89,9 @@ h3 {
     font-size: 20px;
 }
 
+
 /* Twitter */
+
 .fa-twitter {
     background: #55ACEE;
     color: white;
@@ -100,14 +112,17 @@ h3 {
     color: white;
 }
 
+
 /*------------------------------------------ Banner ------------------------------------------*/
+
 .home-greetings.is-loaded {
     opacity: 1;
 }
 
 .title-area {
     margin-top: 1px;
-    /*margin-bottom: 1em;*/ /*margin-bottom: 2em;*/
+    /*margin-bottom: 1em;*/
+    /*margin-bottom: 2em;*/
     /*text-align: center;*/
 }
 
@@ -153,10 +168,14 @@ h3 {
     color: #fff;
 }
 
+
 /*------------------------------------------ Banner ------------------------------------------*/
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #FF6A20;
-    opacity: 1; /* Firefox */
+    opacity: 1;
+    /* Firefox */
 }
 
 .navbar-toggle .icon-bar {
@@ -183,8 +202,6 @@ h3 {
     width: 100%;
 }
 
-
-
 .home-greetings h1 {
     color: #fff;
 }
@@ -197,12 +214,10 @@ nav#layout-nav {
     position: relative;
     /*top: 425px;*/
     margin-top: 372px;
-
 }
 
-
-
-.center, .center p {
+.center,
+.center p {
     text-align: center !important;
 }
 
@@ -213,7 +228,6 @@ nav#layout-nav {
     margin-right: 20px;
     background-size: auto 100%;
     background-repeat: no-repeat;
-
 }
 
 .fb-share-button {
@@ -225,7 +239,9 @@ nav#layout-nav {
     padding: 20px;
 }
 
+
 /* ---------------------------------------------------------------- */
+
 .caption-full h3 {
     font-family: 'Prompt', sans-serif;
     padding-left: 10px;
@@ -288,8 +304,6 @@ nav#layout-nav {
     text-overflow: ellipsis;
 }
 
-
-
 .side p {
     -webkit-line-clamp: 2;
     text-align: left;
@@ -320,9 +334,7 @@ h3.link-name {
     height: 250px;
     display: block;
     margin: auto;
-
     padding: 10px 0px 10px 10px;
-
 }
 
 .img-circle {
@@ -368,7 +380,6 @@ h3.link-name {
     height: 70px;
     display: block;
     margin: auto;
-
     display: block;
     margin: auto;
     margin-top: 20px;
@@ -401,9 +412,12 @@ h3.link-name {
     color: #313234;
 }
 
+
 /*---------------------------------------------------------------------*/
 
+
 /*------------------------------------ BLOG ------------------------------------*/
+
 .box-blog {
     margin-left: -15px;
     margin-right: -15px;
@@ -419,9 +433,10 @@ h3.link-name {
     padding-left: 0px;
 }
 
-.post-list > li {
+.post-list>li {
     list-style: none;
 }
+
 
 /*------------------------------------ BLOG ------------------------------------*/
 
@@ -468,7 +483,7 @@ h3.link-name {
     opacity: 1;
 }
 
-.navbar-custom > li {
+.navbar-custom>li {
     padding-right: 17px;
 }
 
@@ -490,13 +505,13 @@ h3.link-name {
 
 .banner-home {
     position: absolute;
-    margin-top: -124px; /*-154px;*/
+    margin-top: -124px;
+    /*-154px;*/
     height: 126px;
     width: 100%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-image: url('../img/bg-banner.png');
-
 }
 
 .banner {
@@ -507,7 +522,6 @@ h3.link-name {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-image: url('../img/banner/bg-banner.png');
-
 }
 
 .bg-banner-1 {
@@ -515,7 +529,6 @@ h3.link-name {
     background-image: url('../img/banner/1.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
-
 }
 
 .bg-banner-2 {
@@ -523,7 +536,6 @@ h3.link-name {
     background-image: url('../img/banner/2.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
-
 }
 
 .bg-banner-3 {
@@ -531,7 +543,6 @@ h3.link-name {
     background-image: url('../img/banner/3.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
-
 }
 
 .bg-banner-4 {
@@ -546,23 +557,20 @@ h3.link-name {
     background-image: url('../img/banner/5.png');
     background-repeat: no-repeat;
     background-position: 4% 30%;
-
 }
 
 .bg-banner-6 {
     background-size: 100% auto;
-    background-image: url('../img/6.png');
+    background-image: url('../img/bann/6.png');
     background-repeat: no-repeat;
     background-position: 50% 30%;
-
 }
 
 .bg-banner-7 {
     background-size: 100% auto;
-    background-image: url('../img/7.png');
+    background-image: url('../img/banner/7.png');
     background-repeat: no-repeat;
     background-position: 50% 30%;
-
 }
 
 .supporter {
@@ -584,11 +592,16 @@ h3.link-name {
 }
 
 .w3-input {
-    padding: 8px !important;;
-    display: block !important;;
-    border: none !important;;
-    border-bottom: 1px solid #ccc !important;;
-    width: 100% !important;;
+    padding: 8px !important;
+    ;
+    display: block !important;
+    ;
+    border: none !important;
+    ;
+    border-bottom: 1px solid #ccc !important;
+    ;
+    width: 100% !important;
+    ;
 }
 
 .btn-custom {
@@ -622,14 +635,14 @@ h3.link-name {
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 338px;
-
     width: 50%;
     margin: 0 auto;
     height: 50px;
-
 }
 
+
 /*------------------------------------ Custom ------------------------------------*/
+
 .wd-100 {
     width: 120px;
 }
@@ -638,7 +651,7 @@ h3.link-name {
     padding-bottom: 10px;
 }
 
-.file-upload > input {
+.file-upload>input {
     display: none;
 }
 
@@ -662,13 +675,14 @@ h3.link-name {
     font-family: "Prompt", sans-serif;
     font-size: 1em;
     border-radius: 4px;
-
 }
 
 .thumbnail .caption {
     padding: 9px;
     color: #333;
 }
+
+
 /*.thumbnail-sqr
 {
     display: block;
@@ -677,7 +691,8 @@ h3.link-name {
     border: 1px solid #ddd;
 
 }*/
-li > a {
+
+li>a {
     text-align: center;
 }
 
@@ -690,14 +705,16 @@ a.text-white p {
     font-size: 50px;
 }
 
+
 /*==========  Non-Mobile First Method  ==========*/
 
+
 /* Large Devices, Wide Screens */
+
 @media only screen and (max-width: 1200px) {
     .jumbotron {
         padding-bottom: 120px;
     }
-
     .somethingelse {
         margin-top: 23em;
     }
@@ -707,66 +724,55 @@ a.text-white p {
         display: block;
         margin: auto;
         margin-left: -34px;
-
     }
-    .post-list img
-    {
+    .post-list img {
         width: 100%;
     }
-     .h3,   h3 {
+    .h3,
+    h3 {
         font-size: 21px;
-     }
-
-     .custom-btn-facebook {
-    background-size: auto 72%;
-    padding-left: 269px;
+    }
+    .custom-btn-facebook {
+        background-size: auto 72%;
+        padding-left: 269px;
     }
     .image-portrait {
-    width: 100%;
+        width: 100%;
     }
-
-
 }
 
-/* Medium Devices, Desktops */
-@media only screen and (max-width: 992px) {
 
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
     .slide-content h1 {
         line-height: 1em;
         margin-top: -112px;
     }
-
     .somethingelse {
         margin-top: 22em;
     }
-
     .navbar-custom {
         display: -webkit-inline-box;
         width: 120px;
     }
-
     .bg-banner {
         background-size: 150% auto;
     }
-
     .navbar-custom {
         /*  float: left !important;*/
         margin-right: 300px;
-
     }
     .navbar-nav {
         font-size: 11px;
     }
-    .slick-slider-1
-    {
+    .slick-slider-1 {
         padding-top: 148px;
-        }
-    .slick-track
-    {
+    }
+    .slick-track {
         height: 300px;
     }
-    .jumbotron-heading
-    {
+    .jumbotron-heading {
         padding-top: 30px;
     }
     .image-square-right {
@@ -774,66 +780,55 @@ a.text-white p {
         height: 220px;
         display: block;
         margin: auto;
-
     }
-    .d-block{
+    .d-block {
         display: block !important;
     }
-    .post-list img
-    {
+    .post-list img {
         width: 100%;
     }
-    .slick-slider-1
-    {
+    .slick-slider-1 {
         padding-top: 100px;
     }
-    .slide-content h1
-    {
-       font-size: 3em;
+    .slide-content h1 {
+        font-size: 3em;
     }
-
     .slick-slider-1 .slick-slide .slide-image {
-    min-height: 320px;
+        min-height: 320px;
     }
-    .slide-content h1
-    {
+    .slide-content h1 {
         margin-top: -51px;
     }
-
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
     .col-md-offset-1 {
         margin-left: 8.33333333%;
     }
-
     .col-md-offset-2 {
         margin-left: 16.66666667%;
     }
-
     .col-md-4 {
         width: 33.33333333%;
     }
-
     .col-md-push-8 {
         left: 66.66666667%;
     }
-
     .col-md-10 {
         width: 83.33333333%;
     }
 }
-/* Small Devices, Tablets */
-@media only screen and (max-width: 768px) {
 
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
     .bg-banner {
         background-size: auto 100%;
     }
-
     .navbar-custom {
         margin-left: 15%;
     }
-
     /* .navbar-custom {
          position: absolute;
          margin: auto 16%;
@@ -841,24 +836,26 @@ a.text-white p {
      }*/
 }
 
+
 /* Extra Small Devices, Phones */
+
 @media only screen and (max-width: 480px) {
     .banner {
         display: none;
     }
-
     .bg-banner {
         background-size: auto 100%;
     }
-
     .navbar-custom {
         margin-left: 0%;
     }
 }
 
+
 /* Custom, iPhone Retina */
+
 @media only screen and (max-width: 320px) {
-    .navbar-custom > li {
+    .navbar-custom>li {
         padding-right: 0px !important;
     }
 }
