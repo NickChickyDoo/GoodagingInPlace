@@ -84,7 +84,7 @@
                                     <div class="row">
 
                                         <div class="col-lg-4 col-sm-5">
-                                            <img src="http://www.goodaginginplace.com/storage/app/media/content/GreenLight/Greenlight.jpg" alt="..."
+                                            <img src="{{ asset('img/greenlight/Greenlight.jpg') }}" alt="..."
                                                 class="image-square">
                                         </div>
                                         <div class="col-lg-8 col-sm-7">
@@ -108,7 +108,7 @@
                                     <div class="row">
 
                                         <div class="col-lg-4 col-sm-5">
-                                            <img src="http://www.boloblog.com/wp-content/uploads/2017/11/sony_aibo_playing_reuters_1509533598683.jpg" alt="..."
+                                            <img src="{{ asset('img/aipet/sony_aibo_playing_reuters_1509533598683.jpg') }}" alt="..."
                                             class="image-square">
                                         </div>
                                         <div class="col-lg-8 col-sm-7">
@@ -132,7 +132,7 @@
                                     <div class="row">
 
                                         <div class="col-lg-4 col-sm-5">
-                                            <img src="https://static01.nyt.com/images/2019/01/13/nyregion/13COMMENTS/06OLDEST02-superJumbo.jpg?quality=90&auto=webp" alt="..."
+                                            <img src="{{ asset('img/newyorker/06OLDEST02-superJumbo.jpg') }}" alt="..."
                                             class="image-square">
                                         </div>
                                         <div class="col-lg-8 col-sm-7">
@@ -156,7 +156,7 @@
                                     <div class="row">
 
                                         <div class="col-lg-4 col-sm-5">
-                                            <img src="http://www.goodaginginplace.com/storage/app/media/content/What%20happens%20to%20our%20Society%20as%20we%20Age/c1.jpg" alt="..."
+                                            <img src="{{ asset('img/whathappen/c1.jpg') }}" alt="..."
                                             class="image-square">
                                         </div>
                                         <div class="col-lg-8 col-sm-7">
@@ -180,7 +180,7 @@
 
 
 {{-- เนื้อหายอดนิยม --}}
-                    <div class="col-md-4 col-md-push-8">
+                    <div class="col-md-4">
                             <div class="row">
 
                                 <div class="col-md-12">
@@ -221,7 +221,7 @@
                                         <div class="row">
 
                                             <div class="col-lg-5 col-sm-6">
-                                                <img src="http://www.goodaginginplace.com/storage/app/media/content/GreenLight/Greenlight.jpg" alt="..."
+                                                <img src="{{ asset('img/greenlight/Greenlight.jpg') }}" alt="..."
                                                     class="image-square-sm">
                                             </div>
 
@@ -246,7 +246,7 @@
                                         <div class="row">
 
                                             <div class="col-lg-5 col-sm-6">
-                                                <img src="http://www.boloblog.com/wp-content/uploads/2017/11/sony_aibo_playing_reuters_1509533598683.jpg" alt="..."
+                                                <img src="{{ asset('img/aipet/sony_aibo_playing_reuters_1509533598683.jpg') }}" alt="..."
                                                     class="image-square-sm">
                                             </div>
 

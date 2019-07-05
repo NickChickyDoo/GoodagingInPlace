@@ -19,7 +19,7 @@
 
             <p>
                 <center>
-                    <img alt="" src = "http://www.boloblog.com/wp-content/uploads/2017/11/sony_aibo_playing_reuters_1509533598683.jpg" width="60%">
+                    <img alt="" src = "{{ asset('img/aipet/sony_aibo_playing_reuters_1509533598683.jpg') }}" width="60%">
                 </center>
             </p>
 

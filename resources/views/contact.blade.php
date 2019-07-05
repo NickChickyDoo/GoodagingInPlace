@@ -35,7 +35,7 @@
                                             <div class="row">
 
                                                 <div class="col-md-12">
-                                                    <img src="http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/uploads/71.jpg" alt="..."
+                                                    <img src="{{ asset('img/upload/71.jpg') }}" alt="..."
                                                          class="map">
                                                 </div>
                                             </div>

@@ -54,7 +54,7 @@
                             <div class="thumbnail">
                                 <div class="row">
                                     <div class="col-lg-4 col-sm-5">
-                                        <img src="http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/uploads/31.png" alt="..."
+                                        <img src="{{ asset('img/upload/31.png') }}" alt="..."
                                              class="image-square">
                                     </div>
                                     <div class="col-lg-8 col-sm-7">

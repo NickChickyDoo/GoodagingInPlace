@@ -19,7 +19,7 @@
 
             <p>
                 <center>
-                    <img alt="" src = "http://www.goodaginginplace.com/storage/app/media/content/GreenLight/Greenlight.jpg" width="60%">
+                    <img alt="" src = "{{ asset('img/forest/japanese-forest-bathing.jpg') }}" width="60%">
                 </center>
             </p>
 

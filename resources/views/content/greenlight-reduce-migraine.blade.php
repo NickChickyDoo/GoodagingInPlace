@@ -17,7 +17,7 @@
         <div class="container">
                 <p align="center"><strong>@lang('greenlight.title')</strong></p>
 
-                <p><center><img src="http://www.goodaginginplace.com/storage/app/media/content/GreenLight/Greenlight.jpg" style="width: 403px;" class="fr-fic fr-dib" ></center></p>
+                <p><center><img src="{{ asset('img/greenlight/Greenlight.jpg') }}" style="width: 403px;" class="fr-fic fr-dib" ></center></p>
 
                 <p>
                     <br>

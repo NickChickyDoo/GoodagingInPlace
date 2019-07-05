@@ -31,7 +31,7 @@
 
                     <p>
                         <center>
-                            <img alt="" src = "http://www.goodaginginplace.com/storage/app/media/content/What%20happens%20to%20our%20Society%20as%20we%20Age/c1.jpg">
+                            <img alt="" src = "{{ asset('img/whathappen/c1.jpg') }}">
                         </center>
                     </p>
 
@@ -53,7 +53,7 @@
 
                     <p>
                         <center>
-                            <img alt="" src = "http://www.goodaginginplace.com/storage/app/media/content/What%20happens%20to%20our%20Society%20as%20we%20Age/c2.jpg">
+                            <img alt="" src = "{{ asset('img/whathappen/c2.jpg') }}">
                         </center>
                     </p>
 
@@ -90,7 +90,7 @@
 
                     <p>
                         <center>
-                            <img alt="" src = "http://www.goodaginginplace.com/storage/app/media/content/What%20happens%20to%20our%20Society%20as%20we%20Age/c3.jpg">
+                            <img alt="" src = "{{ asset('img/whathappen/c3.jpg') }}">
                         </center>
                     </p>
 
@@ -121,7 +121,7 @@
 
                     <p>
                         <center>
-                            <img alt="" src = "http://www.goodaginginplace.com/storage/app/media/content/What%20happens%20to%20our%20Society%20as%20we%20Age/c4.jpg">
+                            <img alt="" src = "{{ asset('img/whathappen/c4.jpg') }}">
                         </center>
                     </p>
 

@@ -17,7 +17,7 @@
         <div class="container">
                 <p align="center"><h3>@lang('newyorker.title')</h3></p>
 
-                <img alt="" src = "https://static01.nyt.com/images/2019/01/13/nyregion/13COMMENTS/06OLDEST02-superJumbo.jpg?quality=90&auto=webp" width="100%">
+                <img alt="" src = "{{ asset('img/newyorker/06OLDEST02-superJumbo.jpg') }}" width="100%">
 
                 <h4>In 2015, we began following six people over age 85. Last year the four remaining showed that old age is not what you think.</h4>
 
@@ -50,7 +50,7 @@
 
                 <p>They were born when American life expectancy hovered around 60 years, and they surpassed current expectations around the time they rounded 80. But life, too, has plans: at age 80, an American man can expect eight more years, a woman almost ten. That’s longer than adolescence.</p>
 
-                <p><span class="fr-img-caption fr-fic fr-dib" style="width: 992px;"><span class="fr-img-wrap"><img alt="" src="http://www.goodaginginplace.com/storage/app/media/content/New%20York/06OLDEST70-jumbo.jpg"><span class="fr-inner">&nbsp;</span></span></span></p>
+                <p><span class="fr-img-caption fr-fic fr-dib" style="width: 992px;"><span class="fr-img-wrap"><img alt="" src="{{ asset('img/newyorker/06OLDEST70-jumbo.jpg') }}"><span class="fr-inner">&nbsp;</span></span></span></p>
 
                 <p style="text-align: center;"><span aria-hidden="true">Ruth Willig turned 95 in November at a small family gathering. She would consent to a bigger celebration, she said, if she makes it to 100.</span><span itemprop="copyrightHolder">CreditEdu Bayer for The New York Times.</span>&nbsp;</p>
             </div>
@@ -99,7 +99,7 @@
                     <br>
                 </p>
 
-                <p><span class="fr-img-caption fr-fic fr-dib" style="width: 992px;"><span class="fr-img-wrap"><img alt="" src="http://www.goodaginginplace.com/storage/app/media/content/New%20York/merlin_148553754_d2381602-3f99-486b-a50e-df51b2827166-jumbo.jpg"><span class="fr-inner">&nbsp;</span></span></span></p>
+                <p><span class="fr-img-caption fr-fic fr-dib" style="width: 992px;"><span class="fr-img-wrap"><img alt="" src="{{ asset('img/newyorker/merlin_148553754_d2381602-3f99-486b-a50e-df51b2827166-jumbo.jpg') }}"><span class="fr-inner">&nbsp;</span></span></span></p>
 
                 <p style="text-align: center;"><span aria-hidden="true">Helen Moses and her boyfriend Howie Zeimer. They have moved closer over the series and are planning a commitment ceremony.</span><span itemprop="copyrightHolder">CreditEdu Bayer for The New York Times.</span></p>
 
@@ -140,7 +140,7 @@
 
                 <p>Ms. Willig could not help noting the passage of time, especially the absence of her three siblings. Once the youngest, she was now the last of her generation. “It’s weird to be the only one left, it really is,” she said. “I can’t really call anyone: do you remember this? It was not easy at first. I’m getting used to it.”</p>
 
-                <p><span class="fr-img-caption fr-fic fr-dib" style="width: 992px;"><span class="fr-img-wrap"><img alt="" src="http://www.goodaginginplace.com/storage/app/media/content/New%20York/06jpOLD3-jumbo.jpg"><span class="fr-inner">&nbsp;</span></span></span></p>
+                <p><span class="fr-img-caption fr-fic fr-dib" style="width: 992px;"><span class="fr-img-wrap"><img alt="" src="{{ asset('img/newyorker/06jpOLD3-jumbo.jpg') }}"><span class="fr-inner">&nbsp;</span></span></span></p>
 
                 <p style="text-align: center;"><span aria-hidden="true">It was a difficult year for Ping Wong, 93, who faced the onset of dementia.</span><span itemprop="copyrightHolder">CreditEdu Bayer for The New York Times</span>&nbsp;</p>
 

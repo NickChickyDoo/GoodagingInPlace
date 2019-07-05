@@ -495,7 +495,7 @@ h3.link-name {
     width: 100%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/bg-banner.png');
+    background-image: url('../img/bg-banner.png');
 
 }
 
@@ -506,13 +506,13 @@ h3.link-name {
     width: 100%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/bg-banner.png');
+    background-image: url('../img/banner/bg-banner.png');
 
 }
 
 .bg-banner-1 {
     background-size: 100% auto;
-    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/banner/1.png');
+    background-image: url('../img/banner/1.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
 
@@ -520,7 +520,7 @@ h3.link-name {
 
 .bg-banner-2 {
     background-size: 100% auto;
-    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/banner/2.png');
+    background-image: url('../img/banner/2.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
 
@@ -528,7 +528,7 @@ h3.link-name {
 
 .bg-banner-3 {
     background-size: 100% auto;
-    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/banner/3.png');
+    background-image: url('../img/banner/3.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
 
@@ -536,14 +536,14 @@ h3.link-name {
 
 .bg-banner-4 {
     background-size: 100% auto;
-    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/banner/4.png');
+    background-image: url('../img/banner/4.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 
 .bg-banner-5 {
     background-size: 100% auto;
-    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/banner/5.png');
+    background-image: url('../img/banner/5.png');
     background-repeat: no-repeat;
     background-position: 4% 30%;
 
@@ -551,7 +551,7 @@ h3.link-name {
 
 .bg-banner-6 {
     background-size: 100% auto;
-    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/banner/6.png');
+    background-image: url('../img/6.png');
     background-repeat: no-repeat;
     background-position: 50% 30%;
 
@@ -559,7 +559,7 @@ h3.link-name {
 
 .bg-banner-7 {
     background-size: 100% auto;
-    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/banner/7.png');
+    background-image: url('../img/7.png');
     background-repeat: no-repeat;
     background-position: 50% 30%;
 
@@ -568,7 +568,7 @@ h3.link-name {
 .supporter {
     width: 100%;
     height: 97px;
-    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/supporter.png');
+    background-image: url('../img/supporter.png');
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -577,7 +577,7 @@ h3.link-name {
 .map {
     width: 100%;
     height: 300px;
-    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/supporter.png');
+    background-image: url('../img/supporter.png');
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -605,7 +605,7 @@ h3.link-name {
 }
 
 .custom-facebook {
-    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/fb.png');
+    background-image: url('../img/fb.png');
     background-size: auto 57%;
     background-repeat: no-repeat;
     background-position: center;
@@ -615,7 +615,7 @@ h3.link-name {
 }
 
 .custom-btn-facebook {
-    background-image: url('http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/fb2.png');
+    background-image: url('../img/fb2.png');
     background-size: auto 80%;
     background-repeat: no-repeat;
     background-position: center;
