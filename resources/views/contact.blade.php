@@ -23,18 +23,19 @@
          </section>
 
             <div class="banner"></div>
+
             <div class="container">
-
                     <div class="row">
+
                             <div class="col-md-4 ">
-
                                 <div class="row">
+
                                     <div class="col-md-12">
-
                                         <div class="thumbnail">
-                                            <div class="row">
 
+                                            <div class="row">
                                                 <div class="col-md-12">
+
                                                     <img src="{{ asset('img/upload/71.jpg') }}" alt="..."
                                                          class="map">
                                                 </div>
@@ -44,11 +45,13 @@
                                 </div>
 
                             </div>
-                            <div class="col-md-8 ">
 
+                            <div class="col-md-8 ">
                                 <div class="row">
+
                                     <div class="col-md-12">
                                         <div class="thumbnail">
+                                            
                                             <div class="title-area center">
                                                 <h3>@lang('contact.footer.head.1')</h3>
                                             </div>

@@ -23,60 +23,61 @@
          </section>
 
             <div class="banner"></div>
+
             <div class="container">
                 <div class="row">
 
                         <div class="col-md-8">
+                            <div class="row">
 
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="thumbnail">
-                                            <div class="title-area center">
-                                                <h3>@lang('about.title')</h3>
-                                            </div>
-                                            <div class="caption-full">
-                                                <tr>
-                                                    <td>
-                                                     <p>@lang('about.desc')</p>
-                                                    </td>
-                                                </tr>
+                                <div class="col-md-12">
+                                    <div class="thumbnail">
 
-                                            </div>
+                                        <div class="title-area center">
+                                            <h3>@lang('about.title')</h3>
                                         </div>
-                                    </div>
-                                </div>
 
-                                <div class="row">
-                                    <div class="col-md-12">
-
-                                        <div class="thumbnail">
-                                            <div class="row">
-                                                <div class="col-lg-4 col-sm-5">
-                                                    <img src="{{ asset('img/upload/61.jpg')}}" alt="..."
-                                                         class="image-square">
-                                                </div>
-                                                <div class="col-lg-8 col-sm-7">
-                                                    <div class="caption-full">
-                                                        <h3>@lang('about.2nd_topic')</h3>
-                                                        <p>@lang('about.2nd_desc')</p>
-
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div class="caption-full">
+                                            <tr>
+                                                <td>
+                                                 <p>@lang('about.desc')</p>
+                                                </td>
+                                            </tr>
                                         </div>
 
                                     </div>
                                 </div>
-
                             </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+
+                                    <div class="thumbnail">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-sm-5">
+                                                <img src="{{ asset('img/upload/61.jpg')}}" alt="..."
+                                                     class="image-square">
+                                            </div>
+                                            <div class="col-lg-8 col-sm-7">
+                                                <div class="caption-full">
+                                                    <h3>@lang('about.2nd_topic')</h3>
+                                                    <p>@lang('about.2nd_desc')</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
 
                     <div class="col-md-4">
                         <div class="row">
 
                             <div class="col-md-12">
                                 <div class="thumbnail">
-
-                                    <div class="row">
 
                                         <div class="title-area center">
                                             <h3 >@lang('about.side_title')</h3>
@@ -104,8 +105,6 @@
                                         <div class="col-md-12">
                                             <p class="center">@lang('about.team.person.4')</p>
                                         </div>
-
-
 
                                     </div>
                                 </div>

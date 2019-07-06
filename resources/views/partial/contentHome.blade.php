@@ -68,7 +68,7 @@
                         <div class="thumbnail">
                             <div class="row text-center d-block">
                                 <img src="{{ asset('img/icon/news.png') }}"
-                                     alt="..." class="image-icon-lg">
+                                     alt="..." class="image-icon-lg"><br>
                                 <h3 class="link-name">@lang('nav.news')</h3>
                             </div>
                         </div>
@@ -83,7 +83,7 @@
                         <div class="thumbnail">
                             <div class="row text-center d-block">
                                 <img src="{{ asset('img/icon/asset.png') }}"
-                                     alt="..." class="image-icon-lg">
+                                     alt="..." class="image-icon-lg"><br>
                                 <h3 class="link-name">@lang('home.assessment_manu')</h3>
                             </div>
                         </div>
@@ -94,12 +94,12 @@
 
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
-                    <a class="" href="/home-self-assessment">
+                    <a class="" href="/about">
                         <div class="thumbnail">
                             <div class="row text-center d-block">
-                                <img src="http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/icon/asset.png"
-                                     alt="..." class="image-icon-lg">
-                                <h3 class="link-name">@lang('home.assessment_manu')</h3>
+                                <img src="{{ asset('img/icon/about.png')}}"
+                                     alt="..." class="image-icon-lg"><br>
+                                <h3 class="link-name">@lang('home.about_manu')</h3>
                             </div>
                         </div>
                     </a>
@@ -109,12 +109,12 @@
 
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
-                    <a class="" href="/home-self-assessment">
+                    <a class="" href="/contact">
                         <div class="thumbnail">
                             <div class="row text-center d-block">
-                                <img src="http://www.goodaginginplace.com/themes/rainlab-bonjour/assets/images/icon/asset.png"
-                                     alt="..." class="image-icon-lg">
-                                <h3 class="link-name">@lang('home.assessment_manu')</h3>
+                                <img src="{{ asset('img/icon/contact.png')}}"
+                                     alt="..." class="image-icon-lg"><br>
+                                <h3 class="link-name">@lang('home.contact_manu')</h3>
                             </div>
                         </div>
                     </a>
