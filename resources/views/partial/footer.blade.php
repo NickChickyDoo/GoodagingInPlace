@@ -1,5 +1,5 @@
 <footer class="footer">
-    <div class="container navbar pad-bot-10">
+    <div class="container navbar pad-bot-10" style="font-family: 'Prompt', sans-serif;">
 
         <div class="col-md-4">
             <div class="title-area">

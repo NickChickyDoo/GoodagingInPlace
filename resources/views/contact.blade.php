@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
     <head>
+        <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{ asset('css/style.css') }}" >
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -51,7 +52,7 @@
 
                                     <div class="col-md-12">
                                         <div class="thumbnail">
-                                            
+
                                             <div class="title-area center">
                                                 <h3>@lang('contact.footer.head.1')</h3>
                                             </div>

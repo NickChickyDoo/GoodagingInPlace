@@ -14,7 +14,7 @@
     <body>
         @include('partial.header')
 
-        <div class="container">
+        <div class="container" style="font-family: 'Prompt', sans-serif;">
                 <p align="center"><strong>WHAT HAPPENS OUR SOCIETY WE AGE?</strong></p>
 
                 <div align="justify">

@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
     <head>
+        <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{ asset('css/style.css') }}" >
         @include('partial.meta')
 

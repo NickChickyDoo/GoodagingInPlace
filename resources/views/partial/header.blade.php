@@ -1,7 +1,7 @@
 <!-- NavBar Line 1 -->
 <div class="container">
 <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-family: 'Prompt', sans-serif;">
         <a class="navbar-brand" href="/"><img src="{{ asset('img\logo_V.1.0.png') }}" alt="..." width="65"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -35,7 +35,7 @@
 <!-- NavBar line 2 -->
 <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
+        <div class="container" style="font-family: 'Prompt', sans-serif;">
             <div class="row">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">

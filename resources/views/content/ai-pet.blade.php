@@ -14,7 +14,7 @@
     <body>
         @include('partial.header')
 
-        <div class="container">
+        <div class="container" style="font-family: 'Prompt', sans-serif;">
             <p align="center"><strong>@lang('aipet.title')</strong></p>
 
             <p>

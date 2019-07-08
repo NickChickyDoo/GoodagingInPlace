@@ -14,7 +14,7 @@
     <body>
         @include('partial.header')
 
-        <div class="container">
+        <div class="container" style="font-family: 'Prompt', sans-serif;">
                 <p align="center"><h3>@lang('newyorker.title')</h3></p>
 
                 <img alt="" src = "{{ asset('img/newyorker/06OLDEST02-superJumbo.jpg') }}" width="100%">

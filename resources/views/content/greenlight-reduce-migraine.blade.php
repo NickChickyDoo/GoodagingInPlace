@@ -14,7 +14,7 @@
     <body>
         @include('partial.header')
 
-        <div class="container">
+        <div class="container" style="font-family: 'Prompt', sans-serif;">
                 <p align="center"><strong>@lang('greenlight.title')</strong></p>
 
                 <p><center><img src="{{ asset('img/greenlight/Greenlight.jpg') }}" style="width: 403px;" class="fr-fic fr-dib" ></center></p>

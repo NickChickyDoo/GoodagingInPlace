@@ -703,6 +703,7 @@ a.text-white p {
 .jumbotron-heading {
     /*font-size: 4.5em !important;*/
     font-size: 50px;
+    font-family: 'Prompt', sans-serif;
 }
 
 

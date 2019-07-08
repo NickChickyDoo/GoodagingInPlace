@@ -2,6 +2,7 @@
 <html lang="{{ app()->getLocale() }}">
     <head>
             <link rel="stylesheet" href="{{ asset('css/style.css') }}" >
+            <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
             <link rel="icon" type="image/png" href="{{ asset('img/logo_V.1.0.png')}}"/>
@@ -13,7 +14,7 @@
 
     <body>
         @include('partial.header')
-        <div class="container">
+        <div class="container" style="font-family: 'Prompt', sans-serif;">
                 <p>
                         <center>
                             <img alt="" src = "{{ asset('img/GUIDELINES CREATING HOME ELDERLY/Home1.jpg') }}" width="100%">
